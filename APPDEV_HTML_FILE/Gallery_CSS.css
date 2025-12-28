@@ -1,0 +1,82 @@
+
+
+    /* ******************** GALLERY CSS ************************* */
+
+        :root {
+            --primary-brown: #8B6C53;
+            --primary-cream: #F8F3E0;
+            --primary-black: #000000;
+
+            --secondary-deepfir: #062E1A;
+            --secondary-mountain: #84A86C;
+            --secondary-moss: #8B6A45;
+            --secondary-air: #D8D9D7;
+            --secondary-pitre: #B4D232;
+
+            --neutral-dark: #3C3C3C;
+            --neutral-white: #FFFFFF;
+        }
+
+        .Gallery_BODY{
+            background: var(--primary-cream);
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+        }
+
+        /* HEADER */
+        header {
+            background: var(--neutral-dark);
+            padding: 15px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header span {
+            font-family: "Cormorant Garamond", serif;
+            font-size: 22px;
+            color: var(--neutral-white);
+        }
+
+        .back-btn {
+            position: absolute;
+            left: 20px;
+            font-size: 26px;
+            color: var(--neutral-white);
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            color: var(--primary-brown);
+            transform: scale(1.15);
+        }
+
+        .divider-line {
+            flex: 1;
+            height: 2px;
+            background: var(--primary-brown);
+            margin: 0 15px;
+        }
+
+        .category {
+            font-size: 22px;
+            font-weight: 700;
+            margin: 20px 0 10px;
+            color: var(--secondary-deepfir);
+        }
+
+        .product-label {
+            text-align: center;
+            font-weight: 600;
+            margin-top: 10px;
+            color: var(--neutral-dark);
+            font-family: Poppins;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 3px solid var(--secondary-mountain);
+        }
